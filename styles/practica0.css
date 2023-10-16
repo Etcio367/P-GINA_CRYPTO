@@ -1,0 +1,148 @@
+body{
+    font-family: 'Kanit', sans-serif; 
+}
+
+/* -------------  Header  ------------- */
+
+header{
+    background-color: black;
+    padding: 50px 0;
+}
+
+.nom_pract{
+    color: white;
+    font-size: 40PX;
+    margin: 10px 20px 1em;
+    clear: left;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #1dd9e2;
+}
+
+/* -------------  Main  ------------- */
+
+.descripcion{
+    padding: 50px 200px;
+    background: whitesmoke;
+    text-align: justify;
+}
+
+/*main{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+}*/
+
+.archivos{
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+
+    display: block;
+    margin: 20px 350px 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.boton_archivo{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.lectura_archivo{
+    margin: 0px 200px;
+}
+
+.cajitaValor{
+    align-items: center;
+    background-color: white;
+
+    display: block;
+    margin: 20px 350px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.subtitulo{
+    color: black;
+    font-size: 18px;
+    margin: 10px 20px ;
+    clear: left;
+}
+
+.cajita{
+    margin: 10px 200px 100px;
+}
+
+
+.cifrado{
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+
+    display: block;
+    margin: 20px 350px 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.caja_cifrado{
+    margin: 10px 200px;
+    border-radius: 10px;
+}
+
+.boton_cifrado{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 20px 50px 20px;
+}
+
+
+
+/* -------------  Footer  ------------- */
+
+footer{
+    text-align: center;
+    background: url(../img/footer.jpg); 
+    padding: 40px;
+}
+
+.Copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}

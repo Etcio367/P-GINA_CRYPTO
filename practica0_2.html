@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/practica0_2.css">
+    <link rel="stylesheet" href="/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    
+    <script src="scripts/script_practica0_2.js"></script>
+
+    <title>Practica 0. Criptografía</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="nom_pract">
+            <h1> Practica 0 - parte 2 </h1>
+            <nav>
+                <ul class="navegacion">
+                    <li><a href="index.html"> Regresar </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- IMAGEN -->
+        <div class="imagen">
+            <h3 class="subtitulo">Lectura y modificación de imagen</h3>
+            
+            <br><br>
+
+            <input type="file" id="img-input" class="BotonImagen">
+            
+            <br><br>
+
+            <label for="numeroInput" class="descripcion">Ingresar número entre 0 y 255:</label>
+            <br>
+            <input id="numeroInput" type="number" value="" min="0" max="255" class="cajitaValor">
+            <button onclick="BotonCifrar()" class="BotonCifrar">Cifrar</button>
+            <button onclick="BotonDescifrar()" class="BotonDescifrar">Descifrar</button>
+            <p id="resultado"></p>
+            <br>
+            <br>
+
+            <div class="imagen1">
+                <canvas id="canvas"></canvas>
+            </div>
+            <canvas id="canvas-dos" width="300" height="100"></canvas>
+            <br>
+            <br>
+
+            <div id="color"></div>
+
+    
+            <div class="imagen-resultado"></div>
+
+        </div>
+
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p class="Copyright"> By. Erick Domínguez Galán </p>
+        </div>
+    </footer>
+        
+</body>
+</html>

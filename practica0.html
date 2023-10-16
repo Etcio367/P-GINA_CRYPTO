@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/practica0.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <script src="scripts/script_practica0.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="nom_pract">
+            <h1> Practica 0 </h1>
+            <nav>
+                <ul class="navegacion">
+                    <li><a href="index.html"> Regresar </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="descripcion">
+            <p>La práctica 0 consiste en dos partes...</p>
+
+            <p>♘ En la primera parte se tiene que leer un archivo con la canción de Thriller para posteriormente cifrar el archivo .txt; para cifrar se debe de ingresar un número de recorrimiento.</p>
+
+            <p>♘ Para la segunda parte se debe de ingresar una imagen para cambiar los valores de RGB.</p>
+        </div>
+
+        <div class="cajitaValor">
+            <h1 class="subtitulo">Ingresa el valor a desplazar:</h1>
+            <input type="number" value="1" class="cajita" id="recorrimiento">
+        </div>
+
+        <div class="archivos">
+            <input type="file" id="archivo" class="boton_archivo"><br>
+            <textarea id="lectura" cols="50" rows="10" class="lectura_archivo" readonly></textarea> <br>
+            <p id="datos"></p>
+        </div>
+
+        <div class="cifrado">
+            <textarea id="cifrado" cols="50" rows="10" class="caja_cifrado" readonly></textarea><br>
+            <input type="button" id="prueba" class="boton_cifrado" value="Cifrar" onclick="BotonCifrar()">
+            <input type="button" id="decifrado" class="boton_cifrado" value="Descifrar" onclick="BotonDescifrar()">
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p class="Copyright"> By. Erick Domínguez Galán </p>
+        </div>
+    </footer>
+    
+</body>
+</html>

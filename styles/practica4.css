@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 100px 50px;
+    background-color: black;
+    color: white;   
+}
+
+
+.button_back{
+    margin-left: 1000px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------ Main --------------*/
+
+main{
+    display: flex;
+    align-items: center;
+    /*padding: 200px 200px;*/
+}
+
+.Manual{
+    background-color: whitesmoke;
+    padding: 50px 100px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.input_value{
+    align-items: center;
+    margin: 50px 150px;
+    padding: 20px 20px
+}
+
+.Send_Value{
+    align-items: center;
+    padding: 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 200px;
+
+}
+
+/*table*/
+
+.matriz{
+    padding: 200px 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 100px 100px;
+    background-color: whitesmoke;
+}
+
+.table{
+    background-color: #98dbd3;
+    padding: 50px 50px;
+}
+
+.table td{
+    padding: 30px 30px;
+    border-color: black;
+}
+
+.table tr{
+    border-color: black;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+
+/*--------------- footer ------------*/
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 100px 50px;
+    background-color: black;
+    color: white;  
+}
+
+footer p{
+    position: absolute;
+    left: 40%;
+}
