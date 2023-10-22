@@ -23,10 +23,14 @@
 
         <div class="Manual">
             <p>Ingresar un valor de 2 a 4 para generar matrices</p>
-            <input type="number" id="input_value" value="Ingrese un valor entre 2 a 4" class="input_value"><br>
+            <input type="number" id="input_value" value="Ingrese un valor entre 2 a 4" class="input_value" required><br>
+            <p>Ingresa un valos para el modulo (n)</p>
+            <input type="number" id="modulo" value ="Ingresar un modulo (n)" class="input_value" required><br>
             
             <button class="Send_Value" id="button_send" onclick="VerifyNumber()" >Enviar</button>
         </div>
+        
+        <br>
 
         <div class="matriz">
             <table id="table" class="table">
@@ -34,9 +38,19 @@
             </table>
         </div>
 
+        <br>
+
         <div class="matriz2">
             <table id="table2" class="table">
                 
+
+            </table>
+        </div>
+
+        <br>
+
+        <div class="matriz3">
+            <table id="table3" class="table">
 
             </table>
         </div>
